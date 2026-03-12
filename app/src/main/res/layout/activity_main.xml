@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id= "@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <Button
+        android:id = "@+id/btn_hompage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/btn1_bg"
+        android:text="@string/btn1_str"/>
+    <Button
+        android:id = "@+id/btn_phonecall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/btn2_bg"
+        android:text="@string/btn2_str"/>
+    <Button
+        android:id = "@+id/btn_gallary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/btn3_bg"
+        android:text="@string/btn3_str"/>
+    <Button
+        android:id = "@+id/btn_quit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/btn4_bg"
+        android:text="@string/btn4_str"/>
+
+</LinearLayout>
+
